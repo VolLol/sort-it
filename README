@@ -7,10 +7,14 @@ How to run program?
 
 java -jar target/test-1.0-SNAPSHOT.jar -d -s out.txt input1.txt input2.txt
 java -jar target/test-1.0-SNAPSHOT.jar -s  out.txt input1.txt input2.txt input3.txt
-java -jar target/test-1.0-SNAPSHOT.jar -i -a out.txt input2.txt
+java -jar target/test-1.0-SNAPSHOT.jar -a -i out.txt input2.txt
 
 Where following parameters mean:
  -a and -d - sort mode - increase (default) or decreasing
  -s and -i - data type - strings or integers
+
+The order input parameters must be next:
+1)-a or -d 
+2)-s or -i
 
 Use JDK 1.8 version.
