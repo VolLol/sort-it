@@ -1,0 +1,16 @@
+How to run program?
+
+
+1. Run maven script for packing.
+2. Following to the project path in the command line and use one of the command.
+
+
+java -jar target/test-1.0-SNAPSHOT.jar -d -s out.txt input1.txt input2.txt
+java -jar target/test-1.0-SNAPSHOT.jar -s  out.txt input1.txt input2.txt input3.txt
+java -jar target/test-1.0-SNAPSHOT.jar -i -a out.txt input2.txt
+
+Where following parameters mean:
+ -a and -d - sort mode - increase (default) or decreasing
+ -s and -i - data type - strings or integers
+
+Use JDK 1.8 version.
